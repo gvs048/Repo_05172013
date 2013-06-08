@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.dealwallet.webdriver.selenium05082013.Shopclues">
+      <class name="com.dealwallet.webdriver.selenium.Samles.IeDriverExample">
         <methods>
-          <include name="before"/>
-          <include name="after"/>
-          <include name="testAandP"/>
+          <include name="testIe"/>
         </methods>
-      </class> <!-- com.dealwallet.webdriver.selenium05082013.Shopclues -->
+      </class> <!-- com.dealwallet.webdriver.selenium.Samles.IeDriverExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

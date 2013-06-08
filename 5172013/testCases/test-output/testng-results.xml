@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14090" started-at="2013-06-04T12:32:21Z" finished-at="2013-06-04T12:32:35Z">
+  <suite name="Default suite" duration-ms="65338" started-at="2013-06-07T10:26:17Z" finished-at="2013-06-07T10:27:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14090" started-at="2013-06-04T12:32:21Z" finished-at="2013-06-04T12:32:35Z">
-      <class name="com.dealwallet.webdriver.selenium05082013.Shopclues">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.dealwallet.webdriver.selenium05082013.Shopclues@1f23ca4]" name="before" is-config="true" duration-ms="8800" started-at="2013-06-04T18:02:21Z" finished-at="2013-06-04T18:02:30Z">
+    <test name="Default test" duration-ms="65338" started-at="2013-06-07T10:26:17Z" finished-at="2013-06-07T10:27:22Z">
+      <class name="com.dealwallet.webdriver.selenium.Samles.IeDriverExample">
+        <test-method status="PASS" signature="testIe()[pri:0, instance:com.dealwallet.webdriver.selenium.Samles.IeDriverExample@1e3506d]" name="testIe" duration-ms="65301" started-at="2013-06-07T15:56:17Z" finished-at="2013-06-07T15:57:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testAandP()[pri:0, instance:com.dealwallet.webdriver.selenium05082013.Shopclues@1f23ca4]" name="testAandP" duration-ms="4948" started-at="2013-06-04T18:02:30Z" finished-at="2013-06-04T18:02:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAandP -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.dealwallet.webdriver.selenium05082013.Shopclues@1f23ca4]" name="after" is-config="true" duration-ms="324" started-at="2013-06-04T18:02:35Z" finished-at="2013-06-04T18:02:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- com.dealwallet.webdriver.selenium05082013.Shopclues -->
+        </test-method> <!-- testIe -->
+      </class> <!-- com.dealwallet.webdriver.selenium.Samles.IeDriverExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

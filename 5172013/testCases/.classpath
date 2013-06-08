@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="E:/Subbu/MyJars/selenium-server-standalone-2.32.0.jar"/>
 	<classpathentry kind="lib" path="E:/Subbu/MyJars/jsoup-1.7.2.jar"/>
 	<classpathentry kind="lib" path="D:/subbuDownloads/postgresql-9.2-1002.jdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Tsss-Pc1/Downloads/subbuDownloads/commons-httpclient-3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
