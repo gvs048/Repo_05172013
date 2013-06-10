@@ -49,6 +49,9 @@ public class ApparelAndClothing
 				case "jabong":
 				    m.jabong(ammount,d);
 					break;
+				case "clik2pick":
+					m.clik2pick(ammount, d);
+					break;
 					
 				default:
 					System.out.println("sight name is not matched");
