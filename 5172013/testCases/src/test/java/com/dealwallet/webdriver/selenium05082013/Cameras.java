@@ -37,6 +37,13 @@ public class Cameras
 				
 				switch(sitename[0])
 				{
+				case "clik2pick":
+					m.clik2pick(ammount, d);
+					break;
+					
+				case "edabba":
+					m.edabba(ammount, d);
+					break;
 				
 				case "snapdeal":
 					System.out.println("snapdeal site redirected");

@@ -37,6 +37,13 @@ public class Computers
 				
 				switch(sitename[0])
 				{
+				case "clik2pick":
+					m.clik2pick(ammount, d);
+					break;
+					
+				case "edabba":
+					m.edabba(ammount, d);
+					break;
 				
 				case "naaptol":
 					m.naaptol(ammount,d);

@@ -37,6 +37,14 @@ public class AudioAndVideo
 				
 				switch(sitename[0])
 				{
+				case "clik2pick":
+					m.clik2pick(ammount, d);
+					break;
+					
+				case "edabba":
+					m.edabba(ammount, d);
+					break;
+					
 				case "yebhi":
 					m.yebhi(ammount , d);
 					break;

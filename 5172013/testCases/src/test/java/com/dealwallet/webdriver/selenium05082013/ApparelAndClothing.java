@@ -49,6 +49,7 @@ public class ApparelAndClothing
 				case "jabong":
 				    m.jabong(ammount,d);
 					break;
+					
 				case "clik2pick":
 					m.clik2pick(ammount, d);
 					break;

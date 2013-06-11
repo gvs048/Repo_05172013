@@ -405,20 +405,22 @@ public class Merchants
 	
 	public void edabba(String ammount, WebDriver d)
 	{
-		int s= d.findElements(By.xpath("//div[@class='price ']")).size();
+		int s= d.findElements(By.xpath("//div[2]/div[4]/span")).size();
 		if(s==0)
 		{
-			price=d.findElement(By.xpath("//div[2]/div[4]/span")).getText();
-			System.out.println(price);
-			price=price.replace("Rs.", "");
-			System.out.println(price);
+			price=d.findElement(By.xpath("//div[@class='price ']")).getText();
+			//System.out.println(price);
+			price=price.replace("Rs.", "").replace(",", "").trim();
+			//System.out.println(price);
+			
+			
 		}
 		else
 		{
-			price=d.findElement(By.xpath("//div[@class='price ']")).getText();
-			System.out.println(price);
-			price=price.replace("Rs.", "");
-			System.out.println(price);
+			price=d.findElement(By.xpath("//div[2]/div[4]/span")).getText();
+			//System.out.println(price);
+			price=price.replace("Rs.", "").replace(",", "").trim();
+			//System.out.println(price);
 		}
 		
 		if(price.equals(ammount))
@@ -494,7 +496,7 @@ public class Merchants
 	 */
 	public String[] sitename(WebDriver d) {
 		String s = d.getCurrentUrl();
-		System.out.println("url is::" + s);
+		//System.out.println("url is::" + s);
 		String[] temp=s.split("www.");
 		String[] sitename=temp[1].split(".com");
 		System.out.println("site name is::"+sitename[0]);
@@ -508,15 +510,21 @@ public class Merchants
 	 * @return "amount" price in DealWllet.
 	 */
 	public String dwPrice(int k, WebDriver d) {
+		String str="";
 		//for identifying the price in DealWllet.
 		String amount=d.findElement(By.xpath("//div["+k+"]/div/div[3]/span")).getText();
 		amount=amount.replace(",", "").replace(".0", "").substring(1).trim();
+		System.out.println(amount);
+		if(amount.equalsIgnoreCase("N/A\nShop Now"))
+		{
+			str="/span";
+		}
 		//for shop now button in DealWllet
-		d.findElement(By.xpath("//div["+k+"]/div/div[3]/p/a/span/span")).click();
+		d.findElement(By.xpath("//div["+k+"]/div/div[3]"+str+"/p/a/span/span")).click();
 		for (String ccode : d.getWindowHandles()) {
 			d.switchTo().window(ccode);
 		}
-		System.out.println("moved to child window");
+		//System.out.println("moved to child window");
 		return amount;
 	}
 	
