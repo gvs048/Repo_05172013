@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Tsss-Pc1\AppData\Local\Temp\testng-eclipse--1869789363\testng-customsuite.xml</span>
+                    <span>C:\Users\Tsss-Pc1\AppData\Local\Temp\testng-eclipse-1731659011\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.dealwallet.webdriver.selenium05082013.BabiesAndKids1" hash-for-method="testAandP">testAandP</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.dealwallet.webdriver.samples.alert" hash-for-method="testalert">testalert</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -119,22 +119,21 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.dealwallet.webdriver.selenium05082013.BabiesAndKids1</span>
+              <span class="class-name">com.dealwallet.webdriver.samples.alert</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testAandP">
-                  </a> <!-- testAandP -->
-                  <span class="method-name">testAandP</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a/span/span&quot;}
-Command duration or timeout: 182.23 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                  <a name="testalert">
+                  </a> <!-- testalert -->
+                  <span class="method-name">testalert</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: No alert is active (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 101 milliseconds
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
-Session ID: dbd24153-6f0f-4602-b1b7-f8274c259cbc
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+Session ID: ecc4b3f9-b9a4-4d00-904a-cc441fc33d45
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=, nativeEvents=true, browserAttachTimeout=0, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -142,11 +141,9 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at com.dealwallet.webdriver.selenium05082013.BabiesAndKids1.testAandP(BabiesAndKids1.java:36)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:848)
+	at com.dealwallet.webdriver.samples.alert.testalert(alert.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,12 +168,6 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a/span/span&quot;}
-Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Tsss-Pc1/AppData/Local/Temp/anonymous1950708731525546477webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8405)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Tsss-Pc1/AppData/Local/Temp/anonymous1950708731525546477webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:386)
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -186,7 +177,7 @@ Driver info: driver.version: unknown
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Tsss-Pc1\AppData\Local\Temp\testng-eclipse--1869789363\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Tsss-Pc1\AppData\Local\Temp\testng-eclipse-1731659011\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -195,7 +186,7 @@ Driver info: driver.version: unknown
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.dealwallet.webdriver.selenium05082013.BabiesAndKids1&quot;/&gt;
+      &lt;class name=&quot;com.dealwallet.webdriver.samples.alert&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -237,14 +228,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testAandP')
-data.setCell(0, 2, 'com.dealwallet.webdriver.selenium05082013.BabiesAndKids1')
-data.setCell(0, 3, 218548);
+data.setCell(0, 1, 'testalert')
+data.setCell(0, 2, 'com.dealwallet.webdriver.samples.alert')
+data.setCell(0, 3, 37439);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -270,20 +261,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.dealwallet.webdriver.selenium05082013.BabiesAndKids1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.dealwallet.webdriver.samples.alert</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">before</span>
+                <span class="method-name">initilaization</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testAandP</span>
-                <span class="method-start">10641 ms</span>
+                <span class="method-name">testalert</span>
+                <span class="method-start">7272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">after</span>
-                <span class="method-start">229201 ms</span>
+                <span class="method-name">stopDriver</span>
+                <span class="method-start">44721 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

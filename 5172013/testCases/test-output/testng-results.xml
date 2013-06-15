@@ -2,36 +2,34 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="229656" started-at="2013-06-11T10:14:53Z" finished-at="2013-06-11T10:18:43Z">
+  <suite name="Default suite" duration-ms="47015" started-at="2013-06-15T04:12:44Z" finished-at="2013-06-15T04:13:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="229656" started-at="2013-06-11T10:14:53Z" finished-at="2013-06-11T10:18:43Z">
-      <class name="com.dealwallet.webdriver.selenium05082013.BabiesAndKids1">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.dealwallet.webdriver.selenium05082013.BabiesAndKids1@311ade]" name="before" is-config="true" duration-ms="10641" started-at="2013-06-11T15:44:53Z" finished-at="2013-06-11T15:45:04Z">
+    <test name="Default test" duration-ms="47015" started-at="2013-06-15T04:12:44Z" finished-at="2013-06-15T04:13:31Z">
+      <class name="com.dealwallet.webdriver.samples.alert">
+        <test-method status="PASS" signature="initilaization()[pri:0, instance:com.dealwallet.webdriver.samples.alert@113c116]" name="initilaization" is-config="true" duration-ms="7272" started-at="2013-06-15T09:42:44Z" finished-at="2013-06-15T09:42:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="FAIL" signature="testAandP()[pri:0, instance:com.dealwallet.webdriver.selenium05082013.BabiesAndKids1@311ade]" name="testAandP" duration-ms="218548" started-at="2013-06-11T15:45:04Z" finished-at="2013-06-11T15:48:42Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- initilaization -->
+        <test-method status="FAIL" signature="testalert()[pri:0, instance:com.dealwallet.webdriver.samples.alert@113c116]" name="testalert" duration-ms="37439" started-at="2013-06-15T09:42:52Z" finished-at="2013-06-15T09:43:29Z">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//a/span/span"}
-Command duration or timeout: 182.23 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[No alert is active (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 101 milliseconds
 Build info: version: '2.32.0', revision: '6c40c18', time: '2013-04-09 17:22:56'
 System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
-Session ID: dbd24153-6f0f-4602-b1b7-f8274c259cbc
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]]]>
+Session ID: ecc4b3f9-b9a4-4d00-904a-cc441fc33d45
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=, nativeEvents=true, browserAttachTimeout=0, takesScreenshot=true}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a/span/span"}
-Command duration or timeout: 182.23 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: No alert is active (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 101 milliseconds
 Build info: version: '2.32.0', revision: '6c40c18', time: '2013-04-09 17:22:56'
 System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
-Session ID: dbd24153-6f0f-4602-b1b7-f8274c259cbc
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+Session ID: ecc4b3f9-b9a4-4d00-904a-cc441fc33d45
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=, nativeEvents=true, browserAttachTimeout=0, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -39,11 +37,9 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at com.dealwallet.webdriver.selenium05082013.BabiesAndKids1.testAandP(BabiesAndKids1.java:36)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:848)
+	at com.dealwallet.webdriver.samples.alert.testalert(alert.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,23 +64,17 @@ Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, java
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//a/span/span"}
-Build info: version: '2.32.0', revision: '6c40c18', time: '2013-04-09 17:22:56'
-System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Tsss-Pc1/AppData/Local/Temp/anonymous1950708731525546477webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8405)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Tsss-Pc1/AppData/Local/Temp/anonymous1950708731525546477webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:386)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAandP -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.dealwallet.webdriver.selenium05082013.BabiesAndKids1@311ade]" name="after" is-config="true" duration-ms="438" started-at="2013-06-11T15:48:42Z" finished-at="2013-06-11T15:48:43Z">
+        </test-method> <!-- testalert -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:com.dealwallet.webdriver.samples.alert@113c116]" name="stopDriver" is-config="true" duration-ms="2278" started-at="2013-06-15T09:43:29Z" finished-at="2013-06-15T09:43:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- com.dealwallet.webdriver.selenium05082013.BabiesAndKids1 -->
+        </test-method> <!-- stopDriver -->
+      </class> <!-- com.dealwallet.webdriver.samples.alert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

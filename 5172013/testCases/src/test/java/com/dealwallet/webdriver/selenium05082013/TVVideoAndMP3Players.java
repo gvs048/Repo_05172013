@@ -12,7 +12,6 @@ import com.dealwallet.webdriver.selenium.Common.Merchants;
  * The class "TVVideoAndMP3Players" is for comparing the prices from TVVideoAndMP3Players category products in Dealwallet 
  * and corresponding merchant site products.
  * @author Tsss-Pc1
- *
  */
 public class TVVideoAndMP3Players
 {
