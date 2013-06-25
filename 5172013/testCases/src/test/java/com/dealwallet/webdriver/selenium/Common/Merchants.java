@@ -487,6 +487,83 @@ public class Merchants
 	}
 	
 	
+	public void bigadda(String ammount, WebDriver d)
+	{
+		price= d.findElement(By.cssSelector("span.price")).getText();
+		//System.out.println(s);
+		price=price.replace("Rs.", "").replace(",", "").trim();
+		
+		if(price.equals(ammount))
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+"  both are equal");
+		}
+		else
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+" both are NOT equal");
+		}
+	}
+	
+	public void egully(String ammount, WebDriver d)
+	{
+		price= d.findElement(By.cssSelector("em.ProductPrice.VariationProductPrice > h2 > b")).getText();
+		//System.out.println(s);
+		price=price.replace("Rs.", "").replace(",", "").replace("` ", "").trim();
+		
+		if(price.equals(ammount))
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+"  both are equal");
+		}
+		else
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+" both are NOT equal");
+		}
+	}
+	
+	public void adexmart(String ammount, WebDriver d)
+	{
+		price= d.findElement(By.id("our_price_display")).getText();
+		//System.out.println(s);
+		price=price.replace("Rs", "").replace(",", "").replace(".00", "").trim();
+		
+		if(price.equals(ammount))
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+"  both are equal");
+		}
+		else
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+" both are NOT equal");
+		}
+	}
+	
+	public void themobilestore(String ammount, WebDriver d)
+	{
+		price= d.findElement(By.cssSelector("div.our_price > span > span.m-w")).getText();
+		//System.out.println(s);
+		price=price.replace("Rs.", "").replace(",", "").trim();
+		if(price.equals(ammount))
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+"  both are equal");
+		}
+		else
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+" both are NOT equal");
+		}
+	}
+	
+	public void saholic(String ammount, WebDriver d)
+	{
+		price= d.findElement(By.id("sp")).getText();
+		//System.out.println(s);
+		price=price.replace("Rs.", "").replace(",", "").trim();
+		if(price.equals(ammount))
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+"  both are equal");
+		}
+		else
+		{
+			System.out.println("DW Price::"+ammount+" and Marchent price::"+price+" both are NOT equal");
+		}
+	}
 	
 	
 	/**
