@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -20,8 +21,10 @@ public class alert {
 	@BeforeMethod
 	public void initilaization()
 	{
-		System.setProperty("webdriver.ie.driver", "E:\\Subbu\\MyJars\\IEDriverServer.exe");
-		d=new InternetExplorerDriver();
+		/*System.setProperty("webdriver.ie.driver", "E:\\Subbu\\MyJars\\IEDriverServer.exe");
+		d=new InternetExplorerDriver();*/
+		System.setProperty("webdriver.chrome.driver", "E:\\Subbu\\MyJars\\chromedriver.exe");
+		d=new ChromeDriver();
 	}
 	@AfterMethod
 	public void stopDriver()
@@ -53,7 +56,7 @@ public class alert {
 		d.findElement(By.name("Submit")).click();
 		d.findElement(By.xpath("//td[10]/input")).click();
 		d.findElement(By.id("submitButton0")).click();
-		assertEquals(":: IRCTC :: - Ticket Reservation",d.getTitle());
+		//assertEquals(":: IRCTC :: - Ticket Reservation",d.getTitle());
 
 		d.findElement(By.xpath("//tr[@id='passenger0']/td[2]/input")).clear();
 		d.findElement(By.xpath("//tr[@id='passenger0']/td[2]/input")).sendKeys("pradeep");

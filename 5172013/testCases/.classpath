@@ -8,5 +8,10 @@
 	<classpathentry kind="lib" path="E:/Subbu/MyJars/selenium-server-standalone-2.32.0.jar" sourcepath=""/>
 	<classpathentry kind="lib" path="E:/Subbu/MyJars/jsoup-1.7.2.jar"/>
 	<classpathentry kind="lib" path="D:/subbuDownloads/postgresql-9.2-1002.jdbc4.jar"/>
+	<classpathentry kind="lib" path="E:/Subbu/MyJars/guice-3.0/guice-3.0/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Subbu/MyJars/reportng-1.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Subbu/MyJars/velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/Subbu/MyJars/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="lib"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

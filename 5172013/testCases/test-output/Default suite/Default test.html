@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 15 09:42:44 IST 2013</td>
+<td>Started on:</td><td>Sat Jun 15 12:04:35 IST 2013</td>
 </tr>
-<tr><td>Total time:</td><td>47 seconds (47015 ms)</td>
+<tr><td>Total time:</td><td>140 seconds (140938 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,23 +76,27 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.dealwallet.webdriver.samples.alert.testalert()'><b>testalert</b><br>Test class: com.dealwallet.webdriver.samples.alert</td>
-<td><div><pre>org.openqa.selenium.NoAlertPresentException: No alert is active (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 101 milliseconds
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=27.0.1453.110)
+  (Driver info: chromedriver=2.0,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
-Session ID: ecc4b3f9-b9a4-4d00-904a-cc441fc33d45
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=, nativeEvents=true, browserAttachTimeout=0, takesScreenshot=true}]
+Session ID: e33c48343cac2ecdd916b96e9c54c25e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.0}, rotatable=false, locationContextEnabled=true, version=27.0.1453.110, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:151)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:848)
-	at com.dealwallet.webdriver.samples.alert.testalert(alert.java:38)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByName.findElement(By.java:292)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.dealwallet.webdriver.samples.alert.testalert(alert.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -117,24 +121,28 @@ Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div><a href='#' onClick='toggleBox("stack-trace17241004", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace17241004'><pre>org.openqa.selenium.NoAlertPresentException: No alert is active (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 101 milliseconds
+</pre></div><a href='#' onClick='toggleBox("stack-trace25580287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25580287'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=27.0.1453.110)
+  (Driver info: chromedriver=2.0,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
 Build info: version: &apos;2.32.0&apos;, revision: &apos;6c40c18&apos;, time: &apos;2013-04-09 17:22:56&apos;
 System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_21&apos;
-Session ID: ecc4b3f9-b9a4-4d00-904a-cc441fc33d45
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=10, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=, nativeEvents=true, browserAttachTimeout=0, takesScreenshot=true}]
+Session ID: e33c48343cac2ecdd916b96e9c54c25e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.0}, rotatable=false, locationContextEnabled=true, version=27.0.1453.110, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:151)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:848)
-	at com.dealwallet.webdriver.samples.alert.testalert(alert.java:38)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByName.findElement(By.java:292)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.dealwallet.webdriver.samples.alert.testalert(alert.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -160,8 +168,8 @@ Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 </pre></div></td>
-<td>37</td>
-<td>com.dealwallet.webdriver.samples.alert@113c116</td></tr>
+<td>136</td>
+<td>com.dealwallet.webdriver.samples.alert@9486a5</td></tr>
 </table><p>
 </body>
 </html>
