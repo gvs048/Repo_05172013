@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+
+	<test name="Daily Regression">
+		<groups>
+			<run>
+				<include name="daily-reg" />
+				<exclude name="broken" />
+			</run>
+		</groups>
+
+		<classes>
+			<!-- <class name="com.ebates.qa.dotcom.test.MerchantImages" /> -->
+			<class name="com.dealwallet.webdriver.selenium.Samles.Firstprogram"></class>
+		</classes>
+	</test>
+
+</suite>
