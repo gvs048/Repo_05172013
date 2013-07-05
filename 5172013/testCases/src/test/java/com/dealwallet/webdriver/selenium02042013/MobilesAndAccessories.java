@@ -54,11 +54,13 @@ public class MobilesAndAccessories {
 					}
 					else
 					{
-						String s = d.getCurrentUrl();
-						System.out.println("site name is::" + m.sitename(s));
+						//String s = d.getCurrentUrl();
+						//System.out.println("site name is::" + m.sitename(d));
 						int size = 0;
 						String price = "";
-						switch (m.sitename(s))
+						String[] sitename = m.sitename(d);
+						
+						switch(sitename[0])
 						{
 						case "www.homeshop18.com":
 							size = d.findElements(By.id("hs18Price")).size();
@@ -78,7 +80,7 @@ public class MobilesAndAccessories {
 							if (size != 0)
 							{
 								price = d.findElement(By.xpath("//div[5]/div[2]/div/div[2]/p")).getText();
-								m.yebhi(ammount, price);
+								m.yebhi(ammount, d);
 							}
 							else
 							{
@@ -91,7 +93,7 @@ public class MobilesAndAccessories {
 							if (size != 0)
 							{
 								price = d.findElement(By.xpath("//li/strong")).getText();
-								m.naaptol(ammount, price);
+								m.naaptol(ammount, d);
 							}
 							else
 							{
@@ -104,7 +106,7 @@ public class MobilesAndAccessories {
 							if (size != 0)
 							{
 								price = d.findElement(By.xpath("//strong/span")).getText();
-								m.snapdeal(ammount,price);
+								m.snapdeal(ammount,d);
 							}
 							else
 							{

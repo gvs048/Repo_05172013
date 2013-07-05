@@ -1,0 +1,94 @@
+
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ dealwallet-testCases ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 130 source files to D:\opt\git\Repo_05172013\5172013\testCases\target\test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\TVVideoAndMP3Players.java:[60,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\JewelleryAndWatches.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\GroceryAndGourmet.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\HomeAndKitchen.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\BabiesAndKids.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\SportingGoods.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\Computers.java:[59,12] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\PersonalAndHealthCare.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\JewelleryAndWatches.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\Gaming.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\HomeAndKitchen.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Restaurants.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\Electronics.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Cameras.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Others.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Books.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\MobilesAndAccessories.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\ApparelAndClothing.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\AudioAndVideo.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Computers.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Travel.java:[49,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[58,45] error: method sitename in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[61,15] error: method sitename in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[61,24] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[81,9] error: method yebhi in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[94,9] error: method naaptol in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[107,9] error: method snapdeal in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Gaming.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Toys.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\PensAndStationery.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\FlowersAndGifts.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Electranics.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\ApparelClothing.java:[52,11] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\GroceryAndGourmet.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\FlowersAndGifts.java:[38,19] error: strings in switch are not supported in -source 1.5
+[INFO] 35 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.000s
+[INFO] Finished at: Fri Jun 28 10:12:12 IST 2013
+[INFO] Final Memory: 12M/43M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project dealwallet-testCases: Compilation failure: Compilation failure:
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\TVVideoAndMP3Players.java:[60,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\JewelleryAndWatches.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\GroceryAndGourmet.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\HomeAndKitchen.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\BabiesAndKids.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\SportingGoods.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\Computers.java:[59,12] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\PersonalAndHealthCare.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\JewelleryAndWatches.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\Gaming.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\HomeAndKitchen.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Restaurants.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\Electronics.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Cameras.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Others.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Books.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\MobilesAndAccessories.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\ApparelAndClothing.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\AudioAndVideo.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Computers.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Travel.java:[49,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[58,45] error: method sitename in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[61,15] error: method sitename in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[61,24] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[81,9] error: method yebhi in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[94,9] error: method naaptol in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\MobilesAndAccessories.java:[107,9] error: method snapdeal in class Merchants cannot be applied to given types;
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Gaming.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Toys.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\PensAndStationery.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\FlowersAndGifts.java:[55,13] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\Electranics.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium02042013\ApparelClothing.java:[52,11] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\GroceryAndGourmet.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] \opt\git\Repo_05172013\5172013\testCases\src\test\java\com\dealwallet\webdriver\selenium05082013\FlowersAndGifts.java:[38,19] error: strings in switch are not supported in -source 1.5
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

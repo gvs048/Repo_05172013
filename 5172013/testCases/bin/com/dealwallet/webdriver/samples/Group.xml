@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My test suite">
+	<test name="Group Test Demo">
+		<groups>
+			<run>
+				<include name="G1" />
+				<include name="G3" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.dealwallet.webdriver.samples.Groupprog" />
+			<class name="com.dealwallet.webdriver.samples.group1" />
+		</classes>
+	</test>
+</suite>
